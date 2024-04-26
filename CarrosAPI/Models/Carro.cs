@@ -11,9 +11,8 @@ public class Carro
     [Required(ErrorMessage = "O Modelo do veiculo é obrigatório.")]
     public string Modelo { get; set; }
     [Required(ErrorMessage = "O Ano do veiculo é obrigatório.")]
-    // Erro que não conheço [MaxLength(4, ErrorMessage = "O Ano digitado é invalido.")]
     public int Ano { get; set; }
-    //[MaxLength(200, ErrorMessage ="A Especificação não pode ter mais de 200 caracteres.")]
+    [MaxLength(200, ErrorMessage ="A Especificação não pode ter mais de 200 caracteres.")]
     public string Especificacoes { get; set; }
     [Required(ErrorMessage = "A Classe do veiculo é obrigatória.")]
     public string Classe { get; set; }
