@@ -1,4 +1,6 @@
-﻿using CarrosAPI.Models;
+﻿using CarrosAPI.Data;
+using CarrosAPI.Data.Dtos;
+using CarrosAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using System.Net.NetworkInformation;
@@ -9,13 +11,19 @@ namespace CarrosAPI.Controllers;
 [Route("[controller]")]
 public class CarroController : ControllerBase
 {
-    private static List<Carro> carros = new List<Carro>();
-    private static int id = 0;
-    [HttpPost]
-    public IActionResult AdicionaCarro([FromBody] Carro carro)
+    private CarroContext _context;
+
+    public CarroController(CarroContext context)
     {
-        carro.Id = id++;
-        carros.Add(carro);
+        _context = context;
+    }
+
+    [HttpPost]
+    public IActionResult AdicionaCarro([FromBody] CreateCarroDto carroDto)
+    {
+
+        _context.Carros.Add(carro);
+        _context.SaveChanges();
         return CreatedAtAction(nameof(RecuperaCarroPorId),
             new { id = carro.Id },
             carro);
@@ -24,13 +32,13 @@ public class CarroController : ControllerBase
     [HttpGet]
     public IEnumerable<Carro> RecuperarCarros([FromQuery] int skip = 0, [FromQuery] int take = 5)
     {
-        return carros.Skip(skip).Take(take);
+        return _context.Carros.Skip(skip).Take(take);
     }
 
     [HttpGet("{id}")]
     public IActionResult RecuperaCarroPorId(int id)
     {
-        var carro = carros.FirstOrDefault(carro => carro.Id == id);
+        var carro = _context.Carros.FirstOrDefault(carro => carro.Id == id);
         if (carro == null) return NotFound();
         return Ok();
     }

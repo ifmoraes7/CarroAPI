@@ -70,3 +70,5 @@ C:\Users\Iagof\source\repos\CarroAPI\CarrosAPI\bin\Debug\net6.0\Microsoft.Extens
 C:\Users\Iagof\source\repos\CarroAPI\CarrosAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Iagof\source\repos\CarroAPI\CarrosAPI\obj\Debug\net6.0\CarrosAPI.sourcelink.json
 C:\Users\Iagof\source\repos\CarroAPI\CarrosAPI\obj\Debug\net6.0\CarrosAPI.csproj.Up2Date
+C:\Users\Iagof\source\repos\CarroAPI\CarrosAPI\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\Iagof\source\repos\CarroAPI\CarrosAPI\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
