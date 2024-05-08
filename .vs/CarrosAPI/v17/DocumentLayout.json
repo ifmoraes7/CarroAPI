@@ -11,12 +11,16 @@
       "RelativeMoniker": "D:0:0:{B42CFBA8-4D65-4E60-8E64-8FFC912BD8E2}|CarrosAPI\\CarrosAPI.csproj|solutionrelative:carrosapi\\controllers\\carrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B42CFBA8-4D65-4E60-8E64-8FFC912BD8E2}|CarrosAPI\\CarrosAPI.csproj|c:\\users\\iagof\\source\\repos\\carroapi\\carrosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B42CFBA8-4D65-4E60-8E64-8FFC912BD8E2}|CarrosAPI\\CarrosAPI.csproj|solutionrelative:carrosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B42CFBA8-4D65-4E60-8E64-8FFC912BD8E2}|CarrosAPI\\CarrosAPI.csproj|c:\\users\\iagof\\source\\repos\\carroapi\\carrosapi\\data\\dtos\\updatecarrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B42CFBA8-4D65-4E60-8E64-8FFC912BD8E2}|CarrosAPI\\CarrosAPI.csproj|solutionrelative:carrosapi\\data\\dtos\\updatecarrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B42CFBA8-4D65-4E60-8E64-8FFC912BD8E2}|CarrosAPI\\CarrosAPI.csproj|c:\\users\\iagof\\source\\repos\\carroapi\\carrosapi\\data\\dtos\\createcarrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B42CFBA8-4D65-4E60-8E64-8FFC912BD8E2}|CarrosAPI\\CarrosAPI.csproj|solutionrelative:carrosapi\\data\\dtos\\createcarrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B42CFBA8-4D65-4E60-8E64-8FFC912BD8E2}|CarrosAPI\\CarrosAPI.csproj|c:\\users\\iagof\\source\\repos\\carroapi\\carrosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B42CFBA8-4D65-4E60-8E64-8FFC912BD8E2}|CarrosAPI\\CarrosAPI.csproj|solutionrelative:carrosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B42CFBA8-4D65-4E60-8E64-8FFC912BD8E2}|CarrosAPI\\CarrosAPI.csproj|c:\\users\\iagof\\source\\repos\\carroapi\\carrosapi\\migrations\\carrocontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,8 +62,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateCarroDto.cs",
+              "DocumentMoniker": "C:\\Users\\Iagof\\source\\repos\\CarroAPI\\CarrosAPI\\Data\\Dtos\\UpdateCarroDto.cs",
+              "RelativeDocumentMoniker": "CarrosAPI\\Data\\Dtos\\UpdateCarroDto.cs",
+              "ToolTip": "C:\\Users\\Iagof\\source\\repos\\CarroAPI\\CarrosAPI\\Data\\Dtos\\UpdateCarroDto.cs",
+              "RelativeToolTip": "CarrosAPI\\Data\\Dtos\\UpdateCarroDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T21:48:07.21Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -68,9 +85,22 @@
               "RelativeDocumentMoniker": "CarrosAPI\\Profiles\\CarroProfile.cs",
               "ToolTip": "C:\\Users\\Iagof\\source\\repos\\CarroAPI\\CarrosAPI\\Profiles\\CarroProfile.cs",
               "RelativeToolTip": "CarrosAPI\\Profiles\\CarroProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-29T21:10:09.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarroController.cs",
+              "DocumentMoniker": "C:\\Users\\Iagof\\source\\repos\\CarroAPI\\CarrosAPI\\Controllers\\CarroController.cs",
+              "RelativeDocumentMoniker": "CarrosAPI\\Controllers\\CarroController.cs",
+              "ToolTip": "C:\\Users\\Iagof\\source\\repos\\CarroAPI\\CarrosAPI\\Controllers\\CarroController.cs",
+              "RelativeToolTip": "CarrosAPI\\Controllers\\CarroController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAwDgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T03:40:52.172Z",
               "EditorCaption": ""
             },
             {
@@ -83,11 +113,12 @@
               "RelativeToolTip": "CarrosAPI\\Data\\Dtos\\CreateCarroDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T21:04:47.718Z"
+              "WhenOpened": "2024-04-29T21:04:47.718Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CarroContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Iagof\\source\\repos\\CarroAPI\\CarrosAPI\\Migrations\\CarroContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "CarrosAPI\\Migrations\\CarroContextModelSnapshot.cs",
@@ -99,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "20240426171948_CriandoTabelaDeCarro.cs",
               "DocumentMoniker": "C:\\Users\\Iagof\\source\\repos\\CarroAPI\\CarrosAPI\\Migrations\\20240426171948_CriandoTabelaDeCarro.cs",
               "RelativeDocumentMoniker": "CarrosAPI\\Migrations\\20240426171948_CriandoTabelaDeCarro.cs",
@@ -111,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Iagof\\source\\repos\\CarroAPI\\CarrosAPI\\appsettings.json",
               "RelativeDocumentMoniker": "CarrosAPI\\appsettings.json",
@@ -123,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Iagof\\source\\repos\\CarroAPI\\CarrosAPI\\Program.cs",
               "RelativeDocumentMoniker": "CarrosAPI\\Program.cs",
@@ -135,19 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CarroController.cs",
-              "DocumentMoniker": "C:\\Users\\Iagof\\source\\repos\\CarroAPI\\CarrosAPI\\Controllers\\CarroController.cs",
-              "RelativeDocumentMoniker": "CarrosAPI\\Controllers\\CarroController.cs",
-              "ToolTip": "C:\\Users\\Iagof\\source\\repos\\CarroAPI\\CarrosAPI\\Controllers\\CarroController.cs",
-              "RelativeToolTip": "CarrosAPI\\Controllers\\CarroController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAcwBgAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T03:40:52.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CarroContext.cs",
               "DocumentMoniker": "C:\\Users\\Iagof\\source\\repos\\CarroAPI\\CarrosAPI\\Data\\CarroContext.cs",
               "RelativeDocumentMoniker": "CarrosAPI\\Data\\CarroContext.cs",
@@ -159,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CarrosAPI.csproj",
               "DocumentMoniker": "C:\\Users\\Iagof\\source\\repos\\CarroAPI\\CarrosAPI\\CarrosAPI.csproj",
               "RelativeDocumentMoniker": "CarrosAPI\\CarrosAPI.csproj",
@@ -171,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Carro.cs",
               "DocumentMoniker": "C:\\Users\\Iagof\\source\\repos\\CarroAPI\\CarrosAPI\\Models\\Carro.cs",
               "RelativeDocumentMoniker": "CarrosAPI\\Models\\Carro.cs",
@@ -183,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Iagof\\source\\repos\\CarroAPI\\CarrosAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "CarrosAPI\\Properties\\launchSettings.json",
@@ -195,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\Iagof\\source\\repos\\CarroAPI\\CarrosAPI\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "CarrosAPI\\Controllers\\WeatherForecastController.cs",

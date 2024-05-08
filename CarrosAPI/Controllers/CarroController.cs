@@ -1,4 +1,5 @@
-﻿using CarrosAPI.Data;
+﻿using AutoMapper;
+using CarrosAPI.Data;
 using CarrosAPI.Data.Dtos;
 using CarrosAPI.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -12,16 +13,18 @@ namespace CarrosAPI.Controllers;
 public class CarroController : ControllerBase
 {
     private CarroContext _context;
+    private IMapper _mapper;
 
-    public CarroController(CarroContext context)
+    public CarroController(CarroContext context, IMapper mapper)
     {
         _context = context;
+        _mapper = mapper;
     }
 
     [HttpPost]
     public IActionResult AdicionaCarro([FromBody] CreateCarroDto carroDto)
     {
-
+        Carro carro = _mapper.Map<Carro>(carroDto);
         _context.Carros.Add(carro);
         _context.SaveChanges();
         return CreatedAtAction(nameof(RecuperaCarroPorId),
@@ -41,6 +44,17 @@ public class CarroController : ControllerBase
         var carro = _context.Carros.FirstOrDefault(carro => carro.Id == id);
         if (carro == null) return NotFound();
         return Ok();
+    }
+
+    [HttpPut("{id}")]
+    public IActionResult AtualizarCarro(int id, [FromBody] UpdateCarroDto carroDto)
+    {
+        var carro = _context.Carros.FirstOrDefault(
+           carro => carro.Id == id);
+        if(carro == null) return NotFound();
+        _mapper.Map(carroDto,  carro);
+        _context.SaveChanges();
+        return NoContent();
     }
 }
 
